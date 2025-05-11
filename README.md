@@ -4,9 +4,9 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Bernardo Avendanho Duarte
+- Matricula: 882106
+- Proposta de projeto escolhida: Guia de Viagens
 - Breve descrição sobre seu projeto:
 
 **Print do teste da API com visualização do JSON**
@@ -15,7 +15,7 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![mudança da dinâmica com fetch para servidor JSONServer](image-1.png)
 
 ## **Orientações Gerais**
 
