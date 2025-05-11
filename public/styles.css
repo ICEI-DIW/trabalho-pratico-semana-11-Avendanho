@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #37a1f7;
+}
+
+#navegar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #ddd;
+    z-index: 1;
+}
+
+#barra-navegar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navegar-links {
+    display: flex;
+    gap: 1rem   ;
+}
+
+.parte-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+}
+
+#lugar-posts {
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 2.5rem;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.titulo,
+.descricao {
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+#direita {
+    flex: 1 1 0;
+}
+
+#pesquisa,
+#categorias,
+#tags {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#pesquisa h4,
+#categories h4,
+#tags h4 {
+margin-bottom: 1,5rem;
+font-size: 1.6rem;
+}
+
+#pesquisa form {
+    display: flex;
+}
+
+#pesquisa input {
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+}
+
+#pesquisa input[type="submit"] {
+    cursor: pointer;
+    background-color: #37a1f7;
+    color: #fff;
+    border: none;
+}
+
+#categorias li {
+    margin-bottom: 1rem;
+}
+
+#lugar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+#lugar-tags a {
+    background-color: #ddd;
+    padding: .5rem .7rem;
+    border-radius: .3rem;
+}
+
+#rodape {
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+#rodape h2,
+#rodape p {
+    margin-bottom: 1rem;
+}
+
+#categorias h4,
+#tags h4 {
+    padding-bottom: 20px;
+}
+
+#pesquisa {
+    position: sticky;
+    top: 40px;
+    transition: 1s;
+    margin-bottom: 540px;
+}
+
+#categorias {
+    position: sticky;
+    top: 165px;
+    transition: 1s;
+    margin-bottom: 260px;
+    margin-top: -520px;
+
+}
+
+#tags {
+    position: sticky;
+    top: 440px;
+    transition: 1s;
+    margin-top: -240px;
+}

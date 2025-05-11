@@ -1,18 +1,27 @@
 {
-  "usuarios": [
+  "destinos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Paris",
+      "descricao": "Paris, a capital da França, é uma das cidades mais icônicas e românticas do mundo.",
+      "conteudo": "Paris é conhecida por seus monumentos históricos, como a Torre Eiffel e o Museu do Louvre, além de sua gastronomia e cultura vibrante.",
+      "imagem_principal": "img/Paris.jpg",
+      "imagens_complementares": [
+        {"src": "img/Paris1.jpg", "descricao": "Vista noturna da Torre Eiffel"},
+        {"src": "img/Paris2.jpg", "descricao": "Entrada principal do Museu do Louvre"}
+      ],
+      "localizacao": "48.8566, 2.3522"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Las Vegas",
+      "descricao": "Las Vegas, conhecida como a Cidade que não dorme, é o destino perfeito para quem busca diversão.",
+      "conteudo": "Las Vegas é famosa por seus cassinos, shows grandiosos e vida noturna vibrante, atraindo turistas do mundo inteiro.",
+      "imagem_principal": "img/LasVegas.jpg",
+      "imagens_complementares": [
+        {"src": "img/LasVegas1.jpg", "descricao": "Vista aérea da Las Vegas Strip"}
+      ],
+      "localizacao": "36.1699, -115.1398"
     }
   ]
 }

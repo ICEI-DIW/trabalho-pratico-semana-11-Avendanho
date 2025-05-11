@@ -1,0 +1,66 @@
+{
+    "destinos": [
+        {
+            "id": 1,
+            "titulo": "Paris",
+            "descricao": "Paris, a capital da França, é uma das cidades mais icônicas e românticas do mundo.",
+            "conteudo": "Paris é conhecida por seus monumentos históricos, como a Torre Eiffel e o Museu do Louvre, além de sua gastronomia e cultura vibrante.",
+            "imagem_principal": "img/Paris.jpg",
+            "imagens_complementares": [
+                {
+                    "id": 1,
+                    "src": "img/Paris1.jpg",
+                    "descricao": "Vista noturna da Torre Eiffel"
+                },
+                {
+                    "id": 2,
+                    "src": "img/Paris2.jpg",
+                    "descricao": "Entrada principal do Museu do Louvre"
+                },
+                {
+                    "id": 3,
+                    "src": "img/Paris3.jpg",
+                    "descricao": "Jardins de Luxemburgo"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Las Vegas",
+            "descricao": "Las Vegas, conhecida como a Cidade que não dorme, é o destino perfeito para quem busca diversão.",
+            "conteudo": "Las Vegas é famosa por seus cassinos, shows grandiosos e vida noturna vibrante, atraindo turistas do mundo inteiro.",
+            "imagem_principal": "img/Las Vegas.jpg",
+            "imagens_complementares": [
+                {
+                    "id": 1,
+                    "src": "img/LasVegas1.jpg",
+                    "descricao": "Vista aérea da Las Vegas Strip"
+                },
+                {
+                    "id": 2,
+                    "src": "img/LasVegas2.jpg",
+                    "descricao": "Show de fontes no Bellagio"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "titulo": "Sydney",
+            "descricao": "Sydney, a maior cidade da Austrália, é um destino vibrante e cosmopolita.",
+            "conteudo": "Sydney oferece atrações como a Opera House, a Harbour Bridge e praias incríveis como Bondi Beach.",
+            "imagem_principal": "img/Sydney.jpg",
+            "imagens_complementares": [
+                {
+                    "id": 1,
+                    "src": "img/Sydney1.jpg",
+                    "descricao": "Vista da Opera House e da Harbour Bridge"
+                },
+                {
+                    "id": 2,
+                    "src": "img/Sydney2.jpg",
+                    "descricao": "Praia de Bondi"
+                }
+            ]
+        }
+    ]
+}

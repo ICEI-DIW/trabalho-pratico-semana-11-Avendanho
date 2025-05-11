@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Viagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="border-bottom py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h2>Guia de Viagens</h2>
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Categorias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container my-4">
+        <div class="row">
+            <main class="col-lg-8">
+                <div id="detalhes-container">
+                    
+                </div>
+            </main>
+            <aside class="col-lg-4">
+                <section class="mb-4 p-3 border">
+                    <h4>Busca</h4>
+                    <form class="d-flex flex-column gap-2">
+                        <input type="text" class="form-control" placeholder="Pesquise no Guia">
+                        <input type="submit" class="btn btn-primary" value="Buscar">
+                    </form>
+                </section>
+
+                <section class="mb-4 p-3 border">
+                    <h4>Categorias</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Viagens longas</a></li>
+                        <li><a href="#">Natureza</a></li>
+                        <li><a href="#">Cidades</a></li>
+                    </ul>
+                </section>
+
+                <section class="mb-4 p-3 border">
+                    <h4>Tags</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="badge bg-secondary text-light">Dia</a>
+                        <a href="#" class="badge bg-secondary text-light">Noite</a>
+                        <a href="#" class="badge bg-secondary text-light">Paisagens</a>
+                        <a href="#" class="badge bg-secondary text-light">Ocidental</a>
+                        <a href="#" class="badge bg-secondary text-light">Oriental</a>
+                        <a href="#" class="badge bg-secondary text-light">Marítmo</a>
+                        <a href="#" class="badge bg-secondary text-light">Montanhas</a>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="border-top text-center py-4">
+        <h2>Guia de Viagens</h2>
+        <p>O melhor guia de viagens</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<main class="col-lg-8"></main>
+<div id="detalhes-container"></div>
+</html>
